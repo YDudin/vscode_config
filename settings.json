@@ -1,0 +1,16 @@
+{
+    // Theme settings
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.iconTheme": "material-icon-theme",
+
+    // Editor settings
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "onFocusChange",
+    "editor.autoIndent": true,
+    "editor.tabSize": 2,
+
+    // Font settings
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "cSpell.language": "en,en-GB,en-US"
+}
