@@ -12,5 +12,40 @@
     // Font settings
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "cSpell.language": "en,en-GB,en-US"
+
+    //Exclude common files
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true
+    },
+
+    // Spellchecker settings
+    "cSpell.language": "en,en-GB,en-US",
+    "cSpell.enabledLanguageIds": [
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "go",
+        "handlebars",
+        "html",
+        "jade",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pub",
+        "python",
+        "restructuredtext",
+        "ruby",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yml"
+    ],
 }
