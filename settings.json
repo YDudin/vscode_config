@@ -9,6 +9,10 @@
     "editor.autoIndent": true,
     "editor.tabSize": 2,
 
+    "[typescript]": {
+        "editor.tabSize": 4
+    },
+
     // Font settings
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -17,6 +21,10 @@
     "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true
+    },
+
+    "terminal.integrated.env.osx": {
+        "PATH": "$HOME/.nvm"
     },
 
     // Spellchecker settings
@@ -48,4 +56,20 @@
         "typescriptreact",
         "yml"
     ],
+    "cSpell.userWords": [
+        "Delegator",
+        "Protectable",
+        "Serializer",
+        "Struct",
+        "backtrace",
+        "concat",
+        "numericality",
+        "rjust"
+    ],
+    "window.zoomLevel": 0,
+    "gitlens.gitExplorer.files.layout": "list",
+    "textmarker.highlightColors": [
+        "palegreen",
+        "gold"
+    ]
 }

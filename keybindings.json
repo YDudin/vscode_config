@@ -23,5 +23,15 @@
   {
     "key": "alt+cmd+left",
     "command": "-workbench.action.previousEditor"
-  }
+  },
+  {
+    "key": "cmd+q",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+q",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
 ]
